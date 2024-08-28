@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: start;
+    background: powderblue;
+    padding: 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(255, 42, 149);
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: papayawhip;
+}
+header{
+    background-image: url(./cat-and-kitten-snuggling.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    color: paleturquoise;
+}
+header span:hover{
+    transform: scale(1.1);
+    background: plum;
+}
+.card{
+    width: 360px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    background: grey;
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px 5px 0px 0px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+iframe{
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+}
+p{
+    width: 99%;
+    height: 50px;
+    margin-left: 5px;
+}
+h3{
+    margin-left: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+h2, h1{
+    color: rgb(228, 36, 119);
+}
+
