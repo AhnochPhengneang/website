@@ -21,7 +21,7 @@ nav ul li a:hover{
     background: papayawhip;
 }
 header{
-    background-image: url(./cat-and-kitten-snuggling.jpg);
+    background-image: url(../cat-and-kitten-snuggling.jpg);
     height: 80vh;
     width: 100%;
     background-position: center;
